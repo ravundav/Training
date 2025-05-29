@@ -289,6 +289,40 @@ Jenkins-Docker # docker run -p 8080:80 ubuntu
 | `docker container prune` | Remove stopped containers. |
 | `docker volume prune` | Remove unused volumes. |
 
+```
+Jenkins-Docker # docker system prune
+WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all dangling images
+  - unused build cache
+
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+6f199e951538b4bab1ec6016d3d251a3cc6fd337c6adefbf5d3538429182e7ca
+ae6808dcae50aa40f88cffb173a0ccda001078bfd4457df4ab19e00424d8707a
+
+Deleted Networks:
+training
+
+Total reclaimed space: 0B
+Jenkins-Docker # docker image prune
+WARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
+
+
+Jenkins-Docker # docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
+
+Jenkins-Docker # docker volume prune
+WARNING! This will remove anonymous local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
+Jenkins-Docker #
+```
 ---
 
 **Tip:**  
