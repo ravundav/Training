@@ -27,6 +27,8 @@
 - Choose which events to trigger the webhook (usually "Just the push event").
 - Click **Add webhook**.
 
+<img width="1076" alt="image" src="https://github.com/user-attachments/assets/0159d852-cf77-462a-87a8-21c994b4c33d" />
+
 <img width="1159" alt="image" src="https://github.com/user-attachments/assets/1f050d84-9d2c-4059-abe4-093ddd2bc4f2" />
 
 
