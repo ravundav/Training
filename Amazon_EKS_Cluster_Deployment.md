@@ -124,6 +124,40 @@ Go to eks dash board and check
   --query "StackSummaries[].{StackName:StackName,StackStatus:StackStatus}" \
   --output table
 
-<img width="665" alt="image" src="https://github.com/user-attachments/assets/ace365e7-3f5c-4081-85bd-6d5468e866c0" />
-
+------------------------------------------------------------------------------
+|                                 ListStacks                                 |
++--------------------------------------------------------+-------------------+
+|                        StackName                       |    StackStatus    |
++--------------------------------------------------------+-------------------+
+|  eksctl-eks-prasaad-nodegroup-standard-workers         |  CREATE_COMPLETE  |
+|  eksctl-eks-naveen-latest-nodegroup-standard-workers   |  CREATE_COMPLETE  |
+|  eksctl-eks-mani-nodegroup-standard-workers            |  CREATE_COMPLETE  |
+|  eksctl-eks-sohitha-nodegroup-standard-workers         |  CREATE_COMPLETE  |
+|  eksctl-eks-mrudula-cluster                            |  CREATE_COMPLETE  |
+|  eksctl-madhavi-eks-nodegroup-madhavi-standard-workers |  CREATE_COMPLETE  |
+|  eksctl-eks-demo-puja-cluster                          |  CREATE_COMPLETE  |
+|  eksctl-eks-sandeepk-nodegroup-standard-workers        |  CREATE_COMPLETE  |
+|  eksctl-eks-prasaad-cluster                            |  CREATE_COMPLETE  |
+|  eksctl-charan-nodegroup-standard-workers              |  CREATE_COMPLETE  |
+|  eksctl-eks-bhavani-nodegroup-standard-workers         |  CREATE_COMPLETE  |
+|  eksctl-eks-demo-uday-nodegroup-standard-workers       |  CREATE_COMPLETE  |
+|  eksctl-eks-sai-nodegroup-standard-workers-sai         |  CREATE_COMPLETE  |
+|  eksctl-eks-demo-nikhil-nodegroup-standard-workers     |  CREATE_COMPLETE  |
+|  eksctl-eks-naveen-latest-cluster                      |  CREATE_COMPLETE  |
+|  eksctl-eks-sohitha-cluster                            |  CREATE_COMPLETE  |
+|  eksctl-eks-mani-cluster                               |  CREATE_COMPLETE  |
+|  eksctl-madhavi-eks-cluster                            |  CREATE_COMPLETE  |
+|  eksctl-eks-sandeepk-cluster                           |  CREATE_COMPLETE  |
+|  eksctl-charan-cluster                                 |  CREATE_COMPLETE  |
+|  eksctl-eks-bhavani-cluster                            |  CREATE_COMPLETE  |
+|  eksctl-eks-demo-uday-cluster                          |  CREATE_COMPLETE  |
+|  eksctl-eks-sai-cluster                                |  CREATE_COMPLETE  |
+|  eksctl-eks-nag-demo-nodegroup-standard-workers        |  CREATE_COMPLETE  |
+|  eksctl-eks-demo-nikhil-cluster                        |  CREATE_COMPLETE  |
+|  eksctl-eks-prasad-cluster                             |  CREATE_COMPLETE  |
+|  eksctl-eks-demo-cluster                               |  CREATE_COMPLETE  |
+|  eksctl-eks-nag-demo-cluster                           |  CREATE_COMPLETE  |
+|  eksctl-rk-demo-nodegroup-standard-workers             |  CREATE_COMPLETE  |
+|  eksctl-rk-demo-cluster                                |  CREATE_COMPLETE  |
++--------------------------------------------------------+-------------------+
 ```
