@@ -118,4 +118,12 @@ Go to eks dash board and check
 # aws eks update-kubconfig –name eks-demo –region us-east-1
 # vi deployment.yml ( if required we can create deployment)
 # kubectl apply -f deployment.yml
+
+# aws cloudformation list-stacks \
+  --stack-status-filter CREATE_COMPLETE \
+  --query "StackSummaries[].{StackName:StackName,StackStatus:StackStatus}" \
+  --output table
+
+<img width="665" alt="image" src="https://github.com/user-attachments/assets/ace365e7-3f5c-4081-85bd-6d5468e866c0" />
+
 ```
